@@ -11,7 +11,8 @@
 <body>
   <div ng-app="app">
     <img id="character" width="640" height="320" src="images/character.png" hidden>
-    <canvas id="myCanvas" style="width:100%" width="1000" height="350">
+    <img id="background" width="21000" height="1000" src="images/background.png" hidden>
+    <canvas id="myCanvas" style="width:100%" width="1000" height="1000">
       style="border:1px solid #d3d3d3;">
       Your browser does not support the HTML5 canvas tag.
     </canvas>

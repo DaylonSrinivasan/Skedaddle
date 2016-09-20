@@ -14,6 +14,10 @@ function draw() {
   ctx.drawImage(character, frame*character.width/NUM_FRAMES, 0,
                 character.width/NUM_FRAMES, character.height, char_x, char_y,
                 CHARACTER_SIZE, CHARACTER_SIZE);
+
+  ctx.drawImage(background, b_frame*background.width/B_NUM_FRAMES, 0,
+                background.width/B_NUM_FRAMES, background.height, 0, 0, B_SIZE, B_SIZE);
+  b_frame++;
 }
 
 //start moving
