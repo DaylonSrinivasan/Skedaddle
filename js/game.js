@@ -1,5 +1,4 @@
 setInterval(draw, MILLISECONDS_PER_FRAME);
-
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -11,7 +10,7 @@ function draw() {
     col = 0;
   }
   if(row==NUM_ROWS){
-    System.out.println("done");
+    console.log("done!");
     row = 0;
     col = 0;
   }
