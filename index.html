@@ -11,12 +11,18 @@
 <body>
   <div ng-app="app">
     <img id="background" src="images/background.png" hidden>
-    <canvas id="myCanvas" style="width:100%" width="1000" height="1000">
+    <canvas id="myCanvas" style="width:75%" width="500" height="500">
       style="border:1px solid #d3d3d3;">
       Your browser does not support the HTML5 canvas tag.
     </canvas>
     <script type="text/javascript" src="js/values.js"></script>
     <script type="text/javascript" src="js/game.js"></script>
+
+  </div>
+  <div class="container" style="float:left">
+    <button onclick="start()" type = "button" class = "btn btn-primary btn-md"> Play </button>
+    <button onclick="pause()" type = "button" class = "btn btn-primary btn-md"> Pause </button>
+    <button onclick="restart()" type = "button" class = "btn btn-primary btn-md"> Restart </button>
   </div>
 </body>
 </html>
